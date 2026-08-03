@@ -73,9 +73,9 @@
                 <a href="#skills" class="nav-link" aria-label="Skills and Certificates section">Keahlian &amp; Sertifikat</a>
                 <a href="#websites" class="nav-link" aria-label="Websites and Apps section">Website &amp; Aplikasi</a>
                 <a href="#contact" class="nav-link" aria-label="Contact section">Kontak</a>
-                <a href="en/index.html" class="nav-link" aria-label="Switch to English" title="Switch to English" onclick="event.preventDefault(); window.location.href = window.location.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '') + '/en/index.html';">
-                    <i class="ph ph-globe" style="margin-right: 4px;"></i>EN
-                </a>
+                <button id="lang-toggle-btn" class="nav-link theme-btn" title="Ganti Bahasa / Switch Language" style="display: inline-flex; align-items: center; gap: 4px; border: none; background: transparent; color: var(--text-primary); cursor: pointer; font-size: 0.9rem; font-weight: 600;">
+                    <i class="ph ph-globe"></i><span id="nav-lang-label">EN</span>
+                </button>
                 <button id="theme-toggle" class="theme-btn" title="Change Theme">
                     <i class="ph ph-moon"></i>
                 </button>
@@ -90,14 +90,15 @@
     <section id="hero" class="hero section">
         <div class="container hero-content">
             <div class="hero-text fade-in-up">
-                <p class="greeting">Halo, Saya</p>
+                <p class="greeting"><span class="lang-id">Halo, Saya</span><span class="lang-en">Hello, I am</span></p>
                 <h1 class="name">Richard Patung Landu Meha</h1>
-                <h2 class="role">Admin Operasi Keamanan &amp; Penggiat Teknologi</h2>
-                <p class="summary">Profesional yang sangat disiplin dengan pengalaman 7+ tahun dalam administrasi operasi keamanan, komunikasi efektif, copywriting, dan data entry. Memiliki sertifikasi komunikasi dan copywriting yang menunjang koordinasi tim, pelaporan struktural, serta penulisan konten promosi dan kampanye digital. Saat ini sedang menempuh gelar Sarjana ganda di bidang Teknik Informatika dan Manajemen. Memanfaatkan alur kerja berbasis AI untuk mempercepat pembelajaran dan merancang prototipe solusi digital.</p>
+                <h2 class="role"><span class="lang-id">Admin Operasi Keamanan &amp; Penggiat Teknologi</span><span class="lang-en">Security Operations Admin &amp; Technology Enthusiast</span></h2>
+                <p class="summary lang-id">Profesional yang sangat disiplin dengan pengalaman 7+ tahun dalam administrasi operasi keamanan, komunikasi efektif, copywriting, dan data entry. Memiliki sertifikasi komunikasi dan copywriting yang menunjang koordinasi tim, pelaporan struktural, serta penulisan konten promosi dan kampanye digital. Saat ini sedang menempuh gelar Sarjana ganda di bidang Teknik Informatika dan Manajemen. Memanfaatkan alur kerja berbasis AI untuk mempercepat pembelajaran dan merancang prototipe solusi digital.</p>
+                <p class="summary lang-en">Highly disciplined professional with 7+ years of experience in security operations administration, effective communication, copywriting, and data entry. Holds certifications in communication and copywriting supporting team coordination, structural reporting, and digital promotional campaign writing. Currently pursuing dual Bachelor's degrees in Informatics Engineering and Management, leveraging AI workflows to accelerate learning and build digital prototypes.</p>
                 <div class="hero-cta">
-                    <a href="#contact" class="btn btn-primary" aria-label="Contact Me">Hubungi Saya</a>
-                    <a href="cv-ats.html?print=true" target="_blank" class="btn btn-secondary" aria-label="Download CV">Unduh CV</a>
-                    <a href="#experience" class="btn btn-secondary" aria-label="View Experience">Lihat Pengalaman</a>
+                    <a href="#contact" class="btn btn-primary" aria-label="Contact Me"><span class="lang-id">Hubungi Saya</span><span class="lang-en">Contact Me</span></a>
+                    <a href="cv-ats.html?print=true" target="_blank" class="btn btn-secondary" aria-label="Download CV" id="cv-hero-btn"><span class="lang-id">Unduh CV</span><span class="lang-en">Download CV</span></a>
+                    <a href="#experience" class="btn btn-secondary" aria-label="View Experience"><span class="lang-id">Lihat Pengalaman</span><span class="lang-en">View Experience</span></a>
                 </div>
             </div>
             <div class="hero-visual swipe-slider fade-in-up delay-1">

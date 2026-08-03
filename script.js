@@ -94,6 +94,42 @@ document.addEventListener('DOMContentLoaded', () => {
         drawBg();
     }
 
+    // ===== LANGUAGE SWITCHER (ID / EN) =====
+    const langToggleBtn = document.getElementById('lang-toggle-btn');
+    const navLangLabel = document.getElementById('nav-lang-label');
+
+    function setPortfolioLanguage(lang) {
+        const currentLang = (lang === 'en') ? 'en' : 'id';
+        document.body.classList.remove('lang-id', 'lang-en');
+        document.body.classList.add('lang-' + currentLang);
+        document.documentElement.lang = currentLang;
+        localStorage.setItem('user_lang', currentLang);
+
+        if (navLangLabel) {
+            navLangLabel.textContent = (currentLang === 'en') ? 'ID' : 'EN';
+        }
+
+        const cvLink = document.getElementById('cv-hero-btn');
+        if (cvLink) {
+            cvLink.href = `cv-ats.html?lang=${currentLang}&print=true`;
+        }
+    }
+
+    function togglePortfolioLanguage() {
+        const isCurrentEn = document.body.classList.contains('lang-en');
+        setPortfolioLanguage(isCurrentEn ? 'id' : 'en');
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const langParam = urlParams.get('lang');
+    const savedLang = localStorage.getItem('user_lang') || 'id';
+    const initialLang = (langParam === 'en' || langParam === 'id') ? langParam : savedLang;
+    setPortfolioLanguage(initialLang);
+
+    if (langToggleBtn) {
+        langToggleBtn.addEventListener('click', togglePortfolioLanguage);
+    }
+
     // Mobile Menu Toggle
     const mobileMenuBtn = document.getElementById('mobile-menu');
     const navLinks = document.querySelector('.nav-links');

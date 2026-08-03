@@ -35,6 +35,10 @@
     --font-body: 'Inter', sans-serif;
 }
 
+/* ===== Language Visibility Rules ===== */
+body.lang-id .lang-en { display: none !important; }
+body.lang-en .lang-id { display: none !important; }
+
 [data-theme="light"] {
     --bg-main: #F8FAFC;
     --bg-alt: #F1F5F9;
