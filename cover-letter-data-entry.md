@@ -10,10 +10,9 @@ Dengan hormat,
 
 Saya, **Richard Patung Landu Meha**, mengajukan lamaran untuk posisi **Data Entry / Administration Staff** di perusahaan Bapak/Ibu.
 
-Saya memiliki **7+ tahun pengalaman** dalam entry dan pengelolaan data personel, timesheet, scheduling, dan pelaporan operasional di divisi keamanan berskala besar. Beberapa pencapaian saya:
-
+Saya memiliki **10+ tahun pengalaman** dalam entry dan pengelolaan data personel, timesheet, scheduling, dan pelaporan operasional di divisi keamanan berskala besar. Beberapa pencapaian saya:
 - **Entry & maintenance database** 80+ personel (NIK, jabatan, NPWP, BPJS, lokasi tugas) — update berkala
-- **Timesheet entry** 150+ personel per bulan — konsisten 36+ bulan berturut-turut tanpa jeda
+- **Timesheet entry** 150+ personel per month — konsisten 81 bulan berturut-turut tanpa jeda
 - **Scheduling entry** jadwal shift dengan sistem rotasi 3 regu — diekspor ke CSV terstruktur
 - **Google Forms & Sheets** — mendesain dan mengelola form pengumpulan data (alamat, NPWP, seragam) dengan dropdown nama otomatis via Apps Script
 - **Reporting** — 45+ laporan mingguan, 20+ laporan bulanan, weekly report periodik
@@ -32,7 +31,7 @@ Wassalamu'alaikum Wr. Wb.
 
 **Richard Patung Landu Meha**
 +62 858-8810-2696 | richardpl.meha@gmail.com
-Portfolio: https://rihard-cyber.github.io/richard-portfoliofulleng/
+Portfolio: https://rihard-cyber.github.io/
 LinkedIn: linkedin.com/in/richard-patung-landu-meha-9099a3259
 
 ---
@@ -43,7 +42,7 @@ LinkedIn: linkedin.com/in/richard-patung-landu-meha-9099a3259
 
 I am writing to apply for the **Data Entry / Administration Specialist** position at your company.
 
-With **7+ years of experience** in personnel database management, timesheet processing, scheduling, and operational reporting, I bring a strong track record of accurate and consistent data entry. Key achievements:
+With **10+ years of experience** in personnel database management, timesheet processing, scheduling, and operational reporting, I bring a strong track record of accurate and consistent data entry. Key achievements:
 
 - **Database entry & maintenance** for 80+ personnel (NIK, positions, NPWP, BPJS, locations) — regular updates
 - **Timesheet entry** for 150+ personnel monthly — consistent for 36+ consecutive months
